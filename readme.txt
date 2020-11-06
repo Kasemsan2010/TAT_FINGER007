@@ -6,6 +6,14 @@
 - $ npm i nodemon
 - $ npm i axios --save
 
+- $ npm install pm2 -g
+- $ npm install pm2-windows-startup -g
+- $ pm2-startup install
+- $ pm2 start myApp.js --name mySuperApp
+- $ pm2 save
+- $ reboot
+- $ pm2 ls
+
 
 For Test Postman test 
 {"DATETIME_SEND":"20201102183845","SITEID":"1","SITENAME":"การประปานครหลวง","SCANLAST":[{"ACNO":"1051","NAME":"Unknown ","EDATE":"20200318","ETIME":"071420"},{"ACNO":"1051","NAME":"Unknown ","EDATE":"20200313","ETIME":"071640"}]}
